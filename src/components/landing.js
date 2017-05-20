@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Header from './header';
 
-export default class App extends Component {
-
+class Landing extends Component {
   render() {
     return (
       <div>
-        <Header />
+        Greetings!
       </div>
     );
   }
 }
+
+export default Landing;
