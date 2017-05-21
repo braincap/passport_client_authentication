@@ -27,7 +27,6 @@ class Header extends Component {
   }
 
   render() {
-    console.log(Date.now(), this.props.location);
     return (
       <div>
         <nav className='navbar navbar-light'>

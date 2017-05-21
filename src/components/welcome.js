@@ -3,8 +3,7 @@ import React from 'react';
 const welcome = () => {
   return (
     <div>
-      This is the landing page...
-      sign in to access the secure page
+      Welcome to our slice of paradise
     </div>
   );
 };
