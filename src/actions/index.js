@@ -25,6 +25,11 @@ export function signinUser({ email, password }, redirectToFeatureCallback) {    
   }
 }
 
+export function signoutUser() {
+  localStorage.removeItem('token');
+  return { type: UNAUTH_USER }
+}
+
 export function authError(error) {
   return {
     type: AUTH_ERROR,
